@@ -24,7 +24,7 @@ function sumWhile(list) {
 
 console.log(sumWhile(numbers));
 
-function sumRecursionWay(list, index) {
+function sumRecursionWay(list, index = 0) {
   if (index === list.length) {
     return 0;
   }
